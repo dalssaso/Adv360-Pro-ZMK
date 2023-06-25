@@ -53,7 +53,7 @@
  &kp TAB    &kp EQUAL    &kp AT_SIGN  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE   &none                                                                                    &none  &kp Y      &kp KP_N7   &kp KP_N8     &kp KP_N9      &kp KP_MINUS     &kp BSLH
  &kp LCTRL  &kp PLUS     &kp DOLLAR   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GRAVE  &none               &kp LCMD  &kp LCTRL                &RALT      &RCMD                  &none  &kp LEFT   &kp DOWN    &kp UP        &kp RIGHT      &kp KP_PLUS      &kp SQT
  &kp LSHFT  &kp PERCENT  &kp CARET    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp TILDE                                &kp HOME                 &kp PG_UP                         &kp N  &kp KP_N1  &kp KP_N2   &kp KP_N3     &kp KP_ENTER   &kp RSHFT
- &none      &kp GRAVE    &mo 2        &kp LALT              &kp LGUI                                   &kp SPACE  &kp DEL   &kp END                  &kp PG_DN  &kp ENTER  &kp BSPC              &kp UP  &kp DOWN    &kp KP_DOT    &kp RBKT       &mo 2
+ &mo 1      &kp GRAVE    &mo 2        &kp LALT              &kp LCMD                                   &kp SPACE  &kp DEL   &kp END                  &kp PG_DN  &kp ENTER  &kp BSPC              &kp UP  &kp DOWN    &kp KP_DOT    &kp RBKT       &mo 2
             >;
         };
 
