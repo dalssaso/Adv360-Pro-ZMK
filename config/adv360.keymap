@@ -39,21 +39,21 @@
 
         default_layer {
             bindings = <
- &kp ESC    &kp N1     &kp N2  &kp N3     &kp N4    &kp N5  &tog 1                                                                                    &mo 3  &kp N6    &kp N7     &kp N8    &kp N9    &kp N0        &kp MINUS
- &kp TAB    &kp Q      &kp W   &kp E      &kp R     &kp T   &none                                                                                     &none  &kp Y     &kp U      &kp I     &kp O     &kp P         &kp BSLH
- &kp LCTRL  &kp A      &kp S   &kp D      &kp F     &kp G   &none                &kp LCMD  &kp LCTLR                 &kp RALT   &kp RCMD              &none  &kp H     &kp J      &kp K     &kp L     &lt 1 SEMI    &kp SQT
- &kp LSHFT  &kp Z      &kp X   &kp C      &kp V     &kp B                                  &kp HOME                  &kp PG_UP                        &kp N  &kp M     &kp COMMA  &kp DOT   &kp FSLH                &kp RSHFT
- &mo 1      &kp GRAVE  &mo 2   &kp LALT   &kp LCMD                    &kp SPACE  &kp DEL   &kp END                   &kp PG_DN  &kp ENTER  &kp BSPC          &kp RCMD  &kp RALT   &kp LBKT  &kp RBKT                &mo 2
+ &kp ESC     &kp N1    &kp N2    &kp N3     &kp N4  &kp N5               &tog 1                                                                &mo 3  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
+   &kp TAB      &kp Q     &kp W     &kp E      &kp R   &kp T                &none                                                                &none   &kp Y   &kp U      &kp I     &kp O     &kp P   &kp BSLH
+   &kp LCTRL      &kp A     &kp S     &kp D      &kp F   &kp G                &none  &kp LCTRL  &kp LALT                   &kp LGUI  &kp RCTRL     &none   &kp H   &kp J      &kp K     &kp L  &lt 1 SEMI    &kp SQT
+ &kp LSHFT      &kp Z     &kp X     &kp C      &kp V   &kp B                                  &kp HOME                  &kp PG_UP                        &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
+     &mo 1  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                    &kp SPACE    &kp DEL   &kp END                  &kp PG_DN  &kp ENTER  &kp BSPC          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &mo 2
             >;
         };
 
         layer_keypad {
             bindings = <
- &kp ESC    &kp N1       &kp N2       &kp N3                &kp N4                 &kp N5     &trans                                                                                   &mo 3  &kp N6     &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
- &kp TAB    &kp EQUAL    &kp AT_SIGN  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE   &none                                                                                    &none  &kp Y      &kp KP_N7   &kp KP_N8     &kp KP_N9      &kp KP_MINUS     &kp BSLH
- &kp LCTRL  &kp PLUS     &kp DOLLAR   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GRAVE  &none               &kp LCMD  &kp LCTRL                &kp RALT      &kp RCMD            &none  &kp LEFT   &kp DOWN    &kp UP        &kp RIGHT      &kp KP_PLUS      &kp SQT
- &kp LSHFT  &kp PERCENT  &kp CARET    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp TILDE                                &kp HOME                 &kp PG_UP                         &kp N  &kp KP_N1  &kp KP_N2   &kp KP_N3     &kp KP_ENTER   &kp RSHFT
- &mo 1      &kp GRAVE    &mo 2        &kp LALT              &kp LCMD                                   &kp SPACE  &kp DEL   &kp END                  &kp PG_DN  &kp ENTER  &kp BSPC              &kp UP  &kp DOWN    &kp KP_DOT    &kp RBKT       &mo 2
+ &trans     &kp N1    &kp N2    &kp N3     &kp N4  &kp N5              &trans                                                                 &mo 3  &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
+   &trans      &kp EQUAL     &kp AT_SIGN     &kp LEFT_BRACE      &kp RIGHT_BRACE   &kp PIPE               &none                                                                 &none   &kp Y   &kp KP_N7     &kp KP_N8      &kp KP_N9     &kp KP_MINUS   &kp BSLH
+   &trans      &kp PLUS     &kp DOLLAR     &kp LEFT_PARENTHESIS      &kp RIGHT_PARENTHESIS   &kp GRAVE               &none  &kp LCTRL  &kp LALT                   &kp LGUI  &kp RCTRL      &none   &kp LEFT   &kp DOWN     &kp UP      &kp RIGHT      &kp KP_PLUS    &kp SQT
+ &kp LSHFT      &kp PERCENT     &kp CARET     &kp LEFT_BRACKET      &kp RIGHT_BRACKET   &kp TILDE                                 &kp HOME                  &kp PG_UP                         &kp N   &kp KP_N1     &kp KP_N2      &kp KP_N3     &kp KP_ENTER  &kp RSHFT
+     &mo 2  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                    &kp BSPC    &kp DEL   &kp END                  &kp PG_DN  &kp ENTER  &kp KP_N0              &kp UP      &kp DOWN     &kp KP_DOT         &kp RBKT      &mo 2
             >;
         };
 
