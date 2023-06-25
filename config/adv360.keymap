@@ -63,7 +63,7 @@
  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6            &tog 1                                                   &mo 3  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
  &trans  &trans  &trans  &trans  &trans  &trans             &none                                                   &none  &kp LA(LC(U))    &trans  &trans   &kp LA(LC(I))   &kp LA(LC(LG(RIGHT)))  &trans
  &trans  &trans  &trans  &trans  &trans  &kp LA(LC(ENTER))  &none  &trans  &trans                  &trans  &trans   &none  &kp LA(LC(LEFT)) &kp LA(LC(DOWN)) &kp LA(LC(UP))  &kp LA(LC(RIGHT))      &kp LA(LC(LG(LEFT)))   &trans
- &trans  &trans  &trans  &trans  &kp LA(LC(c))  &trans                &trans                  &trans                  &kp LA(LC(J))    &trans  &trans   &kp LA(LC(K))   &trans  &trans
+ &trans  &trans  &trans  &trans  &kp LA(LC(C))  &trans                &trans                  &trans                  &kp LA(LC(J))    &trans  &trans   &kp LA(LC(K))   &trans  &trans
  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans   &trans   &trans   &trans
             >;
         };
