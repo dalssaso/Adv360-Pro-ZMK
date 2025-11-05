@@ -1,3 +1,4 @@
+
 /*
  * Copyright (c) 2020 The ZMK Contributors
  *
@@ -16,14 +17,11 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/backlight.h>
-#include <dt-bindings/zmk/stp.h>
-#include <dt-bindings/zmk/pointing.h>
 
 
 / {
   behaviors {
     #include "macros.dtsi"
-    #include "version.dtsi"
 
     hm: homerow_mods {
         compatible = "zmk,behavior-hold-tap";
@@ -41,7 +39,6 @@
 
 
         default_layer {
-            display-name = "Base";
             bindings = <
  &kp ESC     &kp N1    &kp N2    &kp N3     &kp N4  &kp N5               &tog 1                                                                &mo 3  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
    &kp TAB      &kp Q     &kp W     &kp E      &kp R   &kp T                &none                                                                &none   &kp Y   &kp U      &kp I     &kp O     &kp P   &kp BSLH
@@ -52,7 +49,6 @@
         };
 
         layer_keypad {
-            display-name = "Keypad";
             bindings = <
  &trans     &kp N1    &kp N2    &kp N3     &kp N4  &kp N5              &trans                                                                 &mo 3  &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
    &trans      &kp EQUAL     &kp AT_SIGN     &kp LEFT_BRACE      &kp RIGHT_BRACE   &kp PIPE               &none                                                                 &none   &kp Y   &kp KP_N7     &kp KP_N8      &kp KP_N9     &kp KP_MINUS   &kp BSLH
@@ -63,7 +59,6 @@
         };
 
         layer_fn {
-            display-name = "Fn";
             bindings = <
  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6            &tog 1                                                   &mo 3  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
  &trans  &trans  &trans  &trans  &trans  &trans             &none                                                   &none  &kp LA(LC(U))    &trans  &trans   &kp LA(LC(I))   &kp LA(LC(LG(RIGHT)))  &trans
@@ -74,7 +69,6 @@
         };
 
         layer_mod {
-            display-name = "Mod";
             bindings = <
   &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                             &none                                                                                  &trans   &none       &none            &none       &none       &none   &none
   &none         &none         &none         &none         &none         &none                       &bootloader                                                                             &bootloader   &none       &none            &none       &none       &none   &none
